@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+html {
+  background-color: #141414;
+  color: #fff;
+}
+
+body {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #141414;
+  color: #fff;
+}
+
+.quote {
+  color: #afafaf;
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.quote-from {
+  color: #888;
+  text-align: right;
+  padding-top: 1rem;
+}
+
+.quote-btn {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 2rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.quote-btn:hover {
+  animation: btn-anim 1s forwards;
+}
+
+@keyframes btn-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
